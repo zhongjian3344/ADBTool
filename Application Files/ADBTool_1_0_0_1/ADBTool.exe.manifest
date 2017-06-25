@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="ADBTool.exe" version="1.0.0.1" publicKeyToken="41f80d3070ba3ed4" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="msdn.microsoft.com.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ADBTool" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ADBTool.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 清单选项
+          如果要更改 Windows 用户帐户控制级别，请
+          用下面的某一项替换 requestedExecutionLevel 节点。
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         如果要利用文件和注册表虚拟化实现向后
+         兼容，请删除 requestedExecutionLevel 节点。
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ADBTool.exe" size="111104">
+      <assemblyIdentity name="ADBTool" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>6oVYY7lAVvD8zBVgx0mCc3wuBr8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="log4net.dll" size="270336">
+      <assemblyIdentity name="log4net" version="1.2.10.0" publicKeyToken="1B44E1D426115821" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>jdtaje6bcJ9zdXQM/OC2vS+3XBI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="AdbLib\adb.exe" size="1011200">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>1aKfkKOc/1QZPGB1jtZYMSHLOO4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="AdbLib\AdbWinApi.dll" size="96256">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>/enCKiz81eVmzsLph9lCt4pO6ug=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="AdbLib\AdbWinUsbApi.dll" size="60928">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>EuFCRLGl0EomF1lUfD2TBUf1L6M=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="CommonLib\log4net.dll" size="270336">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>jdtaje6bcJ9zdXQM/OC2vS+3XBI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="HelpFile\adb.html" size="286655">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>ox6t1vbuWDvhNXLU4JATotv05R0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="HelpFile\adb.ico" size="24038">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>bltZuE6SSYyWSk8sKV332sEn3c4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="msdn.microsoft.com.ico" size="24038">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>bltZuE6SSYyWSk8sKV332sEn3c4=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=HOME-4652454062\zj" issuerKeyHash="d0c43d554cb648ab57427995fe5a5bc430614f71" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>NCdrXljCvJX/kx1DXnOUB80TFFg=</DigestValue></Reference></SignedInfo><SignatureValue>kMd/tpeD4mkI9UcjrLvZwdumMg3N+9IdUMHydtw8HaWzYdZILvJlRXEq5L1Ro/+6j3CtAXjSDzCfcU5GeSW6T33AHyrtmp3TfZv3UAcjZyLsK0vhmIzBYUYEX7uXJxoHldeplBehyHHQXHvbP9RJPZtjgcLymiWo4MoV4ubOQAo=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>wQKJ9O9Wzqy3EHNTt76IYmgUvLolaP+BsxR4ZZ/ouq3LOhYxnHUvUq8wdzdVCJERzf8Id8u2aCuiB9PJqpM3BCdAKSnKR0xvMhxJAGGwHSFuFAWw3xkGP97BJJnsouxQx9UsyomqxcT/xlDmiAYVOSmUAZnyQV/rLzOQawVw5wE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="581413cd0794735e431d93ff95bcc2585e6b2734" Description="" Url=""><as:assemblyIdentity name="ADBTool.exe" version="1.0.0.1" publicKeyToken="41f80d3070ba3ed4" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=HOME-4652454062\zj</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>M6FDJhJC6CA+5vzOTpWm+jwcdtI=</DigestValue></Reference></SignedInfo><SignatureValue>ORTgphAZjMb9QWRBWEzkH9Oew8MRZYgoZTwT422TB8A59O2T3x6dy+i+BeTqq4zzf6ct1Oj3ONhFZUZB+aeRVyfm5noxU5O31b4eYEn0wIZUdtMpmMP2ou6eO/207LmULLEZqzy6carvTLrC/cqlm0Wl+Mu7Gp/Fn/SO4i0mZcI=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>wQKJ9O9Wzqy3EHNTt76IYmgUvLolaP+BsxR4ZZ/ouq3LOhYxnHUvUq8wdzdVCJERzf8Id8u2aCuiB9PJqpM3BCdAKSnKR0xvMhxJAGGwHSFuFAWw3xkGP97BJJnsouxQx9UsyomqxcT/xlDmiAYVOSmUAZnyQV/rLzOQawVw5wE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUagAwIBAgIQLtz0Zi99DoFPYMw1q4Y1vDAJBgUrDgMCHQUAMC8xLTArBgNVBAMeJABIAE8ATQBFAC0ANAA2ADUAMgA0ADUANAAwADYAMgBcAHoAajAeFw0xNzA2MjIwODQ0NTBaFw0xODA2MjIxNDQ0NTBaMC8xLTArBgNVBAMeJABIAE8ATQBFAC0ANAA2ADUAMgA0ADUANAAwADYAMgBcAHoAajCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAwQKJ9O9Wzqy3EHNTt76IYmgUvLolaP+BsxR4ZZ/ouq3LOhYxnHUvUq8wdzdVCJERzf8Id8u2aCuiB9PJqpM3BCdAKSnKR0xvMhxJAGGwHSFuFAWw3xkGP97BJJnsouxQx9UsyomqxcT/xlDmiAYVOSmUAZnyQV/rLzOQawVw5wECAwEAATAJBgUrDgMCHQUAA4GBACLV8VKlc6RsmCeFe/K6Bstk6Lw9XdXBA32CqqVUscTQN2MdT+CS/b95gjEMsYkwEvqln+GY0gPAPPx1oVfRug+3ozNymcGRNEJ0fRrd6ZKewNjH5hvsJ06j6J7Up6PLWwXg6SlnTEsre9fkSYEdDrR/bSxMq+qZHlAQu6YQRHoD</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

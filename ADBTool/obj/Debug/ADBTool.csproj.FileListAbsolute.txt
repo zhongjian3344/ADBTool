@@ -1,0 +1,16 @@
+E:\MyProject\ADBTool\ADBTool\bin\Debug\AdbLib\adb.exe
+E:\MyProject\ADBTool\ADBTool\bin\Debug\AdbLib\AdbWinApi.dll
+E:\MyProject\ADBTool\ADBTool\bin\Debug\AdbLib\AdbWinUsbApi.dll
+E:\MyProject\ADBTool\ADBTool\obj\Debug\ResolveAssemblyReference.cache
+E:\MyProject\ADBTool\ADBTool\obj\Debug\ADBTool.FrmHelp.resources
+E:\MyProject\ADBTool\ADBTool\obj\Debug\ADBTool.FrmMain.resources
+E:\MyProject\ADBTool\ADBTool\obj\Debug\ADBTool.Properties.Resources.resources
+E:\MyProject\ADBTool\ADBTool\obj\Debug\ADBTool.csproj.GenerateResource.Cache
+E:\MyProject\ADBTool\ADBTool\bin\Debug\HelpFile\adb.html
+E:\MyProject\ADBTool\ADBTool\bin\Debug\ADBTool.exe
+E:\MyProject\ADBTool\ADBTool\bin\Debug\ADBTool.pdb
+E:\MyProject\ADBTool\ADBTool\bin\Debug\log4net.dll
+E:\MyProject\ADBTool\ADBTool\obj\Debug\ADBTool.exe
+E:\MyProject\ADBTool\ADBTool\obj\Debug\ADBTool.pdb
+E:\MyProject\ADBTool\ADBTool\bin\Debug\APKFiles\APKTest.apk
+E:\MyProject\ADBTool\ADBTool\bin\Debug\HelpFile\adb.ico
